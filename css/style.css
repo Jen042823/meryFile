@@ -1,0 +1,85 @@
+.mr-auto {
+    margin-right: 0 !important;
+}
+.navbar-toggleable-md .navbar-collapse {         
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;  
+} 
+
+body {
+    background-image: url("https://www.nerdwallet.com/assets/blog/wp-content/uploads/2014/09/shutterstock_144112840.jpg");
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-family: Century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  
+}
+
+.card-img-top {
+    width: 100%;
+    height: 23vw;
+    object-fit: cover;
+}
+
+.contact-form{
+    background: #f1f1f1;
+    padding: 30px 40px;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 0 0 20px #000000b3;
+    font-family: "Montserrat",sans-serif;
+}
+.contact-form h1{
+    margin-top:0;
+    font-weight: 200;
+}
+.txtb{
+    border:1px solid gray;
+    margin: 8px 0;
+    padding: 12px 18px;
+    border-radius: 8px;
+}
+.txtb label{
+    display: block;
+    text-align: left;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.txtb input, .txtb textarea{
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 18px;
+    margin-top: 6px;
+}
+.btn{
+    display: inline-block;
+    background: #9b59b6;
+    padding: 14px 0;
+    color: White;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 8px;
+    width: 100%;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+.container {
+  flex: 1 0 auto;
+}
+#sticky-footer {
+  flex-shrink: 0;
+}
